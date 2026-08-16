@@ -1,0 +1,74 @@
+BrowserMind modelprep validation report
+model: sentence-transformers/all-MiniLM-L6-v2 (main)
+vocab_size: 30522  hidden_dim: 384
+quantization: int8, per-row scale
+fp32 size: 44.71 MB
+int8 size: 11.2939 MB
+compression ratio: 3.95876x
+quantization time: 369.966 ms
+
+cosine similarity (quantized vs fp32 reference):
+  min:  0.999785
+  mean: 0.999943
+  max:  0.999973
+
+per-example:
+  0.99994  The James Webb Space Telescope captures infrared light from the earliest galaxies.
+  0.99994  Saturn's rings are made mostly of ice particles with a smaller amount of rocky debris.
+  0.99995  A neutron star can spin hundreds of times per second without tearing itself apart.
+  0.99992  Voyager 1 is now the most distant human-made object, still transmitting from interstellar space.
+  0.99996  Black holes warp spacetime so strongly that not even light can escape past the event horizon.
+  0.99991  Mars has seasons because its rotational axis is tilted, much like Earth's.
+  0.99995  Astronomers use redshift to measure how quickly distant galaxies are moving away from us.
+  0.99995  Searing meat at high heat creates a flavorful crust through the Maillard reaction.
+  0.99994  A good risotto needs constant stirring and warm stock added a ladle at a time.
+  0.99996  Sourdough bread rises using wild yeast and bacteria cultivated in a starter.
+  0.99978  Balancing acidity, sweetness, salt, and fat is the core skill behind most great sauces.
+  0.99996  Fermenting vegetables in brine preserves them while developing complex sour flavors.
+  0.99996  Resting a steak after cooking lets the juices redistribute evenly through the meat.
+  0.99994  Fresh basil loses much of its aroma when exposed to prolonged high heat.
+  0.99996  Central banks raise interest rates to slow inflation by making borrowing more expensive.
+  0.99995  Diversifying a portfolio across asset classes reduces exposure to any single market shock.
+  0.99995  Compound interest means returns are earned on both the principal and prior gains.
+  0.99995  A yield curve inversion has historically preceded many economic recessions.
+  0.99995  Venture capital firms accept high failure rates in exchange for outsized returns on winners.
+  0.99994  Inflation erodes the purchasing power of cash held over long periods.
+  0.99996  Index funds track a market benchmark instead of relying on active stock picking.
+  0.99995  A marathon runner has to manage glycogen stores carefully to avoid hitting the wall.
+  0.99991  In chess, controlling the center squares early gives a lasting positional advantage.
+  0.99994  Sprinters explode out of the blocks using fast-twitch muscle fibers for rapid acceleration.
+  0.99993  A well-executed pick and roll creates a mismatch between a guard and a slower defender.
+  0.99994  Swimmers reduce drag by streamlining their body position off every turn.
+  0.99996  Home field advantage in soccer is partly explained by referee bias and crowd noise.
+  0.99995  Climbers use chalk to reduce sweat and improve grip friction on the rock.
+  0.99996  Companion planting pairs species like tomatoes and basil to deter pests naturally.
+  0.99995  Bees rely on flower color and ultraviolet nectar guides to find pollen efficiently.
+  0.99995  Composting kitchen scraps returns nitrogen and organic matter back into garden soil.
+  0.99995  Deciduous trees drop their leaves in autumn to conserve water through winter.
+  0.99996  Mycorrhizal fungi form symbiotic networks that help tree roots absorb nutrients.
+  0.99995  Pruning fruit trees in late winter encourages stronger growth in the spring.
+  0.99993  Migratory birds navigate using the Earth's magnetic field alongside visual landmarks.
+  0.99995  A compute shader dispatches thousands of GPU threads in parallel workgroups.
+  0.99995  Quantization reduces model weights to lower precision to save memory and bandwidth.
+  0.99996  A hash map offers average constant time lookups by mapping keys to bucket indices.
+  0.99995  Garbage collection reclaims memory automatically once no references to an object remain.
+  0.99994  A binary search halves the remaining search space with every comparison.
+  0.99995  Caching avoids recomputation by storing the result of an expensive operation for reuse.
+  0.99996  A race condition occurs when two threads access shared memory without synchronization.
+  0.99995  The printing press dramatically lowered the cost of reproducing written text.
+  0.99988  The Silk Road connected merchants across Asia, the Middle East, and Europe for centuries.
+  0.99996  The Industrial Revolution shifted economies from agrarian labor to factory production.
+  0.99994  Ancient Roman engineers built aqueducts using precise gravity-fed gradients over long distances.
+  0.99993  The invention of the steam engine transformed both manufacturing and transportation.
+  0.99994  Trade routes across the Mediterranean spread not just goods but also ideas and language.
+  0.99995  Antibiotics target bacterial processes and are ineffective against viral infections.
+  0.99995  Vaccines train the immune system to recognize a pathogen without causing the disease itself.
+  0.99996  DNA replication uses complementary base pairing to copy genetic information accurately.
+  0.99991  Sleep consolidates memories by strengthening connections formed during the day.
+  0.99997  The mitochondria generate cellular energy through a process called oxidative phosphorylation.
+  0.99996  Antibiotic resistance spreads faster when antibiotics are overprescribed or misused.
+  0.99996  A minor key often evokes a more somber or melancholic feeling than a major key.
+  0.99994  Syncopation places rhythmic emphasis on beats that are normally unaccented.
+  0.99994  A capo lets a guitarist change key while keeping the same familiar chord shapes.
+  0.99993  Reverb simulates the natural reflections of sound within a physical space.
+  0.99994  Jazz improvisation relies on a shared harmonic framework that musicians interpret live.

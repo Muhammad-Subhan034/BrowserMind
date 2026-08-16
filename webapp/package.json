@@ -1,0 +1,26 @@
+{
+  "name": "browsermind",
+  "version": "1.0.0",
+  "description": "WebGPU-native, zero-backend semantic search & RAG engine",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "vitest run",
+    "correctness-check": "node scripts/correctness-check.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.7.76",
+    "@fontsource-variable/inter": "^5.1.0",
+    "@fontsource-variable/jetbrains-mono": "^5.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4",
+    "@webgpu/types": "^0.1.44",
+    "playwright-core": "^1.48.0"
+  }
+}

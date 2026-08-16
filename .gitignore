@@ -1,0 +1,16 @@
+# Build artifacts
+modelprep/build/
+webapp/dist/
+webapp/node_modules/
+webapp/*.tsbuildinfo
+
+# Python
+modelprep/python/__pycache__/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+
+# Local agent tooling config (machine-specific, not project content)
+.claude/
